@@ -1,9 +1,9 @@
 from scipy.spatial import Delaunay
 
-from edge_key import edge_key
-from third_vertex import third_vertex
-from does_point_lie_on_any_edge import does_point_lie_on_any_edge
-from insert_missing_points_with_full_triangle_edges import insert_missing_points_with_full_triangle_edges
+from src.edge_key import edge_key
+from src.third_vertex import third_vertex
+from src.does_point_lie_on_any_edge import does_point_lie_on_any_edge
+from src.insert_missing_points_with_full_triangle_edges import insert_missing_points_with_full_triangle_edges
 
 def build_polygon_edges(points):
     # Step 1: Initial edges from convex hull

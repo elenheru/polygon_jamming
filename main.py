@@ -2,11 +2,11 @@ import pygame as pg
 import numpy as np
 from scipy.spatial import Delaunay
 
-import constant_parameters
-from generate_points_and_polygon import generate_points_and_polygon
-from check_belonging_to_polygon import point_position_with_respect_to_polygon as pprp
-from jammer import generate_points_from_polygon_in as jam_in
-from jammer import generate_points_from_polygon_out as jam_out
+from src import constant_parameters
+from src.generate_points_and_polygon import generate_points_and_polygon
+from src.check_belonging_to_polygon import point_position_with_respect_to_polygon as pprp
+from src.jammer import generate_points_from_polygon_in as jam_in
+from src.jammer import generate_points_from_polygon_out as jam_out
 
 def main():
     pg.init()

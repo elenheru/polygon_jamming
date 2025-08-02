@@ -1,4 +1,4 @@
-from orientation import orientation
+from src.orientation import orientation
 
 def segments_intersect(p1, p2, q1, q2):
     """Check if segments (p1,p2) and (q1,q2) intersect."""

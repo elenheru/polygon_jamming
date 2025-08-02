@@ -1,5 +1,5 @@
-from edge_key import edge_key
-from third_vertex import third_vertex
+from src.edge_key import edge_key
+from src.third_vertex import third_vertex
 
 
 def insert_missing_points_with_full_triangle_edges(points, edges, tri):

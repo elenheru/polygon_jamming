@@ -1,6 +1,6 @@
 import pygame
 import numpy as np
-from scipy.spatial import Delaunay
+from src.scipy.spatial import Delaunay
 
 FPS = 48
 RESOLUTION = (1024, 1024)

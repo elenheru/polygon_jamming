@@ -1,7 +1,7 @@
 import numpy as np
-from constant_parameters import *
-from build_polygon_edges import build_polygon_edges
-from order_edge import order_edges as sort_edges
+from src.constant_parameters import *
+from src.build_polygon_edges import build_polygon_edges
+from src.order_edge import order_edges as sort_edges
 
 def generate_points_and_polygon(points=None):
     if points is None:

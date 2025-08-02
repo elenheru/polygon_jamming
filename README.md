@@ -11,6 +11,8 @@ Direct application of this idea comes across with a problem, that centroid is no
 Same problem remains even we only take a small move towards centroid.
 
 Rigorous checks of whether candidate point lies inside polygon or not are being made on every step.
+Even this check is not enough, as there is always an adversary built polygon which has a nook to satisfy the condition.
+Really non-leaving polygon transformation should take into account all possible crossings of edges, and reject such movements.
 
 Also, we can invert the movement, and let polygon expand. 
 This option is not of that much interest, because it always produces a polygon tantamount to convex hull of initial one.
@@ -21,3 +23,4 @@ Usage:
 - Press Backspace key to generate new polygon. 
 - Press Page Up key to start/stop expansion of polygon.
 - Press Page Down key to start/stop jamming of polygon.
+- Press q key to quit the application.

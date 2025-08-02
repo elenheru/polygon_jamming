@@ -1,6 +1,6 @@
 #from your_module import point_in_polygon  # Import the auxiliary function from your codebase
-from check_belonging_to_polygon import point_position_with_respect_to_polygon as point_in_polygon
-from interpolate_points import interpolate_points
+from src.check_belonging_to_polygon import point_position_with_respect_to_polygon as point_in_polygon
+from src.interpolate_points import interpolate_points
 from math import sqrt
 
 def triangle_centroid(a, b, c):
