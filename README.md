@@ -7,7 +7,7 @@ Only two dimensional simple (non degenerate) polygons are being considered.
 
 The core idea of transfoming procedure is to move a vertex in (or towards) position of centroid of triangle,
 which is build on sequential triplet of polygon vertices.
-Direct application of this idea comes across with a problem, that centroid is not necessarily lies inside polygon taken.
+Direct application of this idea comes across with a problem, that centroid is not necessarily lies inside polygon given.
 Same problem remains even we only take a small move towards centroid.
 
 Rigorous checks of whether candidate point lies inside polygon or not are being made on every step.
