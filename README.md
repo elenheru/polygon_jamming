@@ -17,6 +17,10 @@ Really non-leaving polygon transformation should take into account all possible 
 Also, we can invert the movement, and let polygon expand. 
 This option is not of that much interest, because it always produces a polygon tantamount to convex hull of initial one.
 
+This code also containg procedure for generating polygons with given points as vertices. 
+Algorithm implies warranty thst all points will becone vertices, but still fails sometimes.
+
+# scipy library is required
 
 Usage:
 - Run the main file. 
