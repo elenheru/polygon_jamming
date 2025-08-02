@@ -20,7 +20,7 @@ This option is not of that much interest, because it always produces a polygon t
 This code also containg procedure for generating polygons with given points as vertices. 
 Algorithm implies warranty thst all points will becone vertices, but still fails sometimes.
 
-# scipy library is required
+- scipy library is required
 
 Usage:
 - Run the main file. 
